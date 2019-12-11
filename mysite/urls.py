@@ -28,5 +28,6 @@ urlpatterns = [
     path('index/', index),
     path('setsession/',setsession),
     path('getsession/',getsession),
+    path('', index , name='index'),
   
 ]
